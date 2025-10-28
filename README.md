@@ -1,4 +1,4 @@
-# Web TMT
+# Web Taller MT
 Esta es la primera Web que vamos a ir desarrollando en tmt :)
 
 ## ¿Quién soy?
