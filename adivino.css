@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(224, 156, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#lienzo{
+    width: 1000px;
+    height: 600px;
+    border: 1px rgb(82, 83, 80) solid;
+    background-color: rgb(180, 194, 154);
+    position: relative;
+}
+
+#cara{
+    width: 35%;
+    height: 85%;
+    border-radius: 49%;
+    background-color: rgb(102, 224, 224); 
+    position: absolute; 
+    bottom: 9%;
+    left: 32%; 
+}
+.ojo {
+    width: 13%;
+    height: 12%;
+    background-color: rgb(145, 255, 231);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60%
+}
+
+#ojoIzq {
+    left: 21%;
+}
+
+#ojoDer {
+    right: 24%;
+}
+
+#ojoExt {
+    background-color: rgb(170, 255, 248);
+    width: 13%;
+    height: 17%;
+    border-radius: 50%;
+    border: 4px rgb(252, 212, 125) dotted;
+    position: absolute;
+    bottom: 75%;
+    left:41%;
+}
+
+#ojoPeq {
+    background-color: rgb(252, 212, 125);
+    width: 7%;
+    height: 9%;
+    border-radius: 50%;
+    border: 2px rgb(252, 212, 125) bold;
+    position: absolute;
+    bottom: 80%;
+    left:45%;
+}
+
+#boca {
+    height:90px;
+    width: 30px;
+    border-radius: 25px 0 0 25px;
+    border-top: 9px solid #b64242;
+    border-left: 2px solid #000;
+    border-bottom: 7px solid #b64242;
+    transform: translate(100px) rotate(-270deg);
+    position: absolute;
+    top: 70%;
+    left: 15%;
+
+}
+#bocados {
+    
+}
+
+#nariz {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 60%;
+    height: 20%;
+    border-radius: 50%;
+    border-top: 3px solid black;
+    
+}
