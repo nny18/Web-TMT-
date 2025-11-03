@@ -7,15 +7,15 @@ body {
 }
 #lienzo{
     width: 1000px;
-    height: 600px;
-    border: 1px rgb(82, 83, 80) solid;
-    background-color: rgb(180, 194, 154);
+    height: 550px;
+    border: 1px rgb(90, 105, 59) solid;
+    background-color: rgb(153, 145, 163);
     position: relative;
 }
 
 #cara{
     width: 35%;
-    height: 85%;
+    height: 77%;
     border-radius: 49%;
     background-color: rgb(102, 224, 224); 
     position: absolute; 
@@ -23,12 +23,12 @@ body {
     left: 32%; 
 }
 .ojo {
-    width: 13%;
-    height: 12%;
+    width: 20%;
+    height: 18%;
     background-color: rgb(145, 255, 231);
     border-radius: 50%;
     position: absolute;
-    bottom: 60%
+    bottom: 57%
 }
 
 #ojoIzq {
@@ -62,29 +62,156 @@ body {
 }
 
 #boca {
-    height:90px;
-    width: 30px;
-    border-radius: 25px 0 0 25px;
-    border-top: 9px solid #b64242;
-    border-left: 2px solid #000;
-    border-bottom: 7px solid #b64242;
-    transform: translate(100px) rotate(-270deg);
-    position: absolute;
-    top: 70%;
-    left: 15%;
 
 }
-#bocados {
-    
+
+
+#rombo {
+    width: 28px;
+    height: 24px;
+    background-color: rgb(153, 145, 163);
+    transform: rotate(26deg) skew(15deg, 15deg);
+    position: absolute;
+    bottom: 45%;
+    left: 42%;
 }
 
-#nariz {
+#rombod {
+    width: 28px;
+    height: 24px;
+    background-color: rgb(153, 145, 163);
+    transform: rotate(72deg) skew(15deg, 15deg);
     position: absolute;
-    top: 50%;
-    left: 20%;
-    width: 60%;
-    height: 20%;
+    bottom: 45%;
+    left: 47%;
+}
+
+#orombo{
+    width: 38px;
+    height: 50px;
+    background-color: #9e6262;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+    bottom: 58%;
+    left: 29%;
+}
+
+#orombos{
+    width: 38px;
+    height: 50px;
+    background-color: #9e6262;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+    bottom: 58%;
+    left: 64%;
+}
+
+#luna {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    box-shadow: -3px 18px rgb(110, 185, 81);
+    position: absolute;
+    bottom: 25%;
+    left: 34%;
+}
+
+#oreja{
+    width: 25%;
+    height: 37%;
+    border-radius: 49%;
+    background-color: rgb(102, 224, 224); 
+    position: absolute;
+    bottom: 40%;
+    right: 87%; 
+}
+
+#orejad{
+    width: 25%;
+    height: 37%;
+    border-radius: 49%;
+    background-color: rgb(102, 224, 224); 
+    position: absolute;
+    bottom: 40%;
+    right: -13%; 
+}
+
+#lunad {
+    width: 308px;
+    height: 270px;
+    border-radius: 80%;
+    box-shadow: -1px -20px rgb(110, 185, 81);
+    position: absolute;
+    top: 4%;
+    left: 6%;
+}
+
+#pelo {
+    width: 128px;
+    height: 112px;
+    background: rgb(110, 185, 81);
     border-radius: 50%;
-    border-top: 3px solid black;
-    
+    position:absolute;
+    top: -10%;
+    left: -10%;
+    transform: rotate(-45deg);
+}   
+
+#pelod {
+    width: 128px;
+    height: 112px;
+    background: rgb(110, 185, 81);
+    border-radius: 50%;
+    position:absolute;
+    top: -10%;
+    left: 74%;
+    transform: rotate(45deg);
+}    
+
+#lunat {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 100px solid #662c2c;
+    position: absolute;
+    left: -7.5%;
+    bottom: 21%;
+
 }
+   
+
+#lunac {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 100px solid #662c2c;
+    position: absolute;
+    left: 99%;
+    bottom: 21%;
+
+}
+
+#mejilla {
+    height: 35px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(202, 184, 193);
+    position: absolute;
+    bottom: 45%;
+    left: 10%;
+
+}
+
+#mejillad {
+    height: 35px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(202, 184, 193);
+    position: absolute;
+    bottom: 45%;
+    right: 10%;
+
+}
+
