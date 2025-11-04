@@ -21,7 +21,10 @@ body {
     position: absolute; 
     bottom: 9%;
     left: 32%; 
+    
 }
+
+
 .ojo {
     width: 20%;
     height: 18%;
@@ -31,15 +34,15 @@ body {
     bottom: 57%
 }
 
-#ojoIzq {
+#ojoizq {
     left: 21%;
 }
 
-#ojoDer {
+#ojoder {
     right: 24%;
 }
 
-#ojoExt {
+#ojoext {
     background-color: rgb(170, 255, 248);
     width: 13%;
     height: 17%;
@@ -48,9 +51,14 @@ body {
     position: absolute;
     bottom: 75%;
     left:41%;
+
 }
 
-#ojoPeq {
+#ojoext:hover {
+    background-color: rgb(55, 85, 82);
+}
+
+#ojopeq {
     background-color: rgb(252, 212, 125);
     width: 7%;
     height: 9%;
@@ -59,6 +67,10 @@ body {
     position: absolute;
     bottom: 80%;
     left:45%;
+}
+
+#ojopeq:hover {
+    background-color: rgb(105, 88, 51);
 }
 
 #boca {
@@ -144,6 +156,16 @@ body {
     position: absolute;
     top: 4%;
     left: 6%;
+    animation-name: colorearlunad;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorearlunad {
+    0%   {box-shadow:rgb(109, 162, 89);}
+    25%  {box-shadow:rgb(76, 127, 55);} 
+    50%  {box-shadow:rgb(93, 156, 69);} 
+    75%  {box-shadow:rgb(110, 185, 81);}
 }
 
 #pelo {
@@ -155,7 +177,17 @@ body {
     top: -10%;
     left: -10%;
     transform: rotate(-45deg);
+    animation-name: colorearpelo;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
 }   
+
+@keyframes colorearpelo {
+    0%   {background-color:rgb(109, 162, 89); width:20%; height:20%;}
+    25%  {background-color:rgb(76, 127, 55); width:10%; height:10%;}
+    50%  {background-color:rgb(93, 156, 69); width:20%; height:20%;}
+    75%  {background-color:rgb(110, 185, 81); width:10%; height:10%;}
+}
 
 #pelod {
     width: 128px;
@@ -166,7 +198,17 @@ body {
     top: -10%;
     left: 74%;
     transform: rotate(45deg);
+    animation-name: colorearpelod;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
 }    
+
+@keyframes colorearpelod {
+    0%   {background-color:rgb(109, 162, 89); width:20%; height:20%;}
+    25%  {background-color:rgb(76, 127, 55); width:10%; height:10%;}
+    50%  {background-color:rgb(93, 156, 69); width:20%; height:20%;}
+    75%  {background-color:rgb(110, 185, 81); width:10%; height:10%;}
+}
 
 #lunat {
     width: 0;
@@ -204,6 +246,11 @@ body {
 
 }
 
+#mejilla:hover {
+    background-color: rgb(185, 88, 137);
+
+}
+
 #mejillad {
     height: 35px;
     width: 45px;
@@ -213,5 +260,9 @@ body {
     bottom: 45%;
     right: 10%;
 
+}
+
+#mejillad:hover{
+    background-color: rgb(185, 88, 137);
 }
 
